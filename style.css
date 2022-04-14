@@ -6,7 +6,7 @@
     margin: 0;
     font-family: 'Plus Jakarta Sans',
         sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 body {
@@ -39,8 +39,8 @@ h1 {
     color: white;
     padding: 1rem;
     text-align: center;
-    font-size: 1.6rem;
-    line-height: 40px;
+    font-size: 1.4rem;
+    line-height: 30px;
 }
 
 p {
@@ -68,7 +68,7 @@ button {
     text-align: center;
     color: black;
     justify-content: center;
-    line-height: 40px;
+    line-height: 30px;
     padding: 1rem;
 }
 
