@@ -9,6 +9,10 @@ button.addEventListener("click",function(){
         if(luckyNumber.value==="" || date.value === ""){
             message.innerText = "Please enter all the fields"
         }
+        else if(luckyNumber.value<1){
+          message.innerText = "Please dont enter any negative value!!!!"
+
+        }
    else{
        let dob = date.value.replaceAll("-","")
        let sum = 0
